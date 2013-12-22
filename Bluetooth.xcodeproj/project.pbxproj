@@ -22,6 +22,7 @@
 		18EB07D31866C5FF00780DE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB07B21866C5FE00780DE5 /* UIKit.framework */; };
 		18EB07DB1866C5FF00780DE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EB07D91866C5FF00780DE5 /* InfoPlist.strings */; };
 		18EB07DD1866C5FF00780DE5 /* BluetoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB07DC1866C5FF00780DE5 /* BluetoothTests.m */; };
+		18EB07E81866C81A00780DE5 /* BlueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB07E71866C81A00780DE5 /* BlueTooth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		18EB07D81866C5FF00780DE5 /* BluetoothTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothTests-Info.plist"; sourceTree = "<group>"; };
 		18EB07DA1866C5FF00780DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18EB07DC1866C5FF00780DE5 /* BluetoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothTests.m; sourceTree = "<group>"; };
+		18EB07E61866C81A00780DE5 /* BlueTooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueTooth.h; sourceTree = "<group>"; };
+		18EB07E71866C81A00780DE5 /* BlueTooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueTooth.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				18EB07C31866C5FE00780DE5 /* Main_iPad.storyboard */,
 				18EB07C61866C5FE00780DE5 /* ViewController.h */,
 				18EB07C71866C5FE00780DE5 /* ViewController.m */,
+				18EB07E61866C81A00780DE5 /* BlueTooth.h */,
+				18EB07E71866C81A00780DE5 /* BlueTooth.m */,
 				18EB07C91866C5FE00780DE5 /* Images.xcassets */,
 				18EB07B51866C5FE00780DE5 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EB07E81866C81A00780DE5 /* BlueTooth.m in Sources */,
 				18EB07C81866C5FE00780DE5 /* ViewController.m in Sources */,
 				18EB07BF1866C5FE00780DE5 /* AppDelegate.m in Sources */,
 				18EB07BB1866C5FE00780DE5 /* main.m in Sources */,
@@ -346,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -395,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bluetooth/Bluetooth-Prefix.pch";
 				INFOPLIST_FILE = "Bluetooth/Bluetooth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bluetooth/Bluetooth-Prefix.pch";
 				INFOPLIST_FILE = "Bluetooth/Bluetooth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +482,7 @@
 				18EB07E21866C5FF00780DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18EB07E31866C5FF00780DE5 /* Build configuration list for PBXNativeTarget "BluetoothTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +491,7 @@
 				18EB07E51866C5FF00780DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

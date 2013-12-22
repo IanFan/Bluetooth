@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BlueTooth.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <BluetoothDelegate>
+{
+  UILabel *_infoLabel;
+  int _messageInt;
+}
+
+@property (nonatomic,retain) Bluetooth *bluetooth;
 
 @end
